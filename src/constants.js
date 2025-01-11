@@ -1,0 +1,5 @@
+module.exports = {
+  MIN_SALARY_MULTIPLIER: 1.2,
+  MAX_SALARY_MULTIPLIER: 1.5,
+  MAX_REPORTING_LINE: 4,
+};
