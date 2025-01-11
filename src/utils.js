@@ -8,9 +8,9 @@ const readCSV = (filePath) => {
     const [id, firstName, lastName, salary, managerId] = line.split(",");
     return {
       id: id.trim(),
-      firstName: firstName.trim(),
-      lastName: lastName.trim(),
-      salary: parseFloat(salary.trim()),
+      firstName: firstName,
+      lastName: lastName,
+      salary: parseFloat(salary),
       managerId: managerId ? managerId.trim() : null,
     };
   });
